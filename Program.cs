@@ -20,6 +20,26 @@
 
             #endregion
 
+            #region Question02
+
+            /*
+             * a)  What is the difference between an Abstract Class and an Interface?
+             * => Answer <==
+             * ==> Abstract Class: Can contain normal methods, abstract methods, fields, and properties. A class can inherit from only one abstract class.
+             * ==> Interface: Mainly defines what a class should do. A class can implement multiple interfaces.
+             * 
+             * b)  When would you choose an Interface instead of an Abstract Class?
+             * => Answer <==
+             * ==> We choose an Interface when different classes need to have the same behavior, even if they are not related by inheritance.
+             * 
+             * c)  Can a class inherit from multiple abstract classes? Can it implement multiple interfaces?
+             * => Answer <==
+             * ==> A class cannot inherit from multiple abstract classes.
+             * A class can implement multiple interfaces.
+             * **/
+
+            #endregion
+
             #endregion
         }
     }
