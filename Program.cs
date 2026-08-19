@@ -100,6 +100,149 @@
 
             #endregion
 
+            #region Question08
+
+            /*
+             * 8)  Main() Checklist
+             * **/
+            // ==> Answer <==
+            /*
+             // Create Delivery Center
+            DeliveryCenter center = new DeliveryCenter();
+
+            // Create Standard Shipment
+            StandardShipment standard = new StandardShipment(
+                "SH001",
+                "Laptop",
+                3,
+                80,
+                new DeliveryAddress("Cairo", "Tahrir Street", 15)
+            );
+
+            // Create Express Shipment
+            ExpressShipment express = new ExpressShipment(
+                "SH002",
+                "Mobile Phone",
+                2,
+                60,
+                new DeliveryAddress("Cairo", "Nasr Street", 20),
+                30
+            );
+
+            // Create International Shipment
+            InternationalShipment international = new InternationalShipment(
+                "SH003",
+                "Television",
+                8,
+                120,
+                new DeliveryAddress("Cairo", "Main Street", 10),
+                "Germany",
+                100
+            );
+
+            // Add shipments
+            center.AddShipment(standard);
+            center.AddShipment(express);
+            center.AddShipment(international);
+
+            // Print all shipment details
+            Console.WriteLine("==========================================");
+            Console.WriteLine("Delivery Center");
+            Console.WriteLine("==========================================");
+            Console.WriteLine();
+
+            center.PrintAllShipments();
+
+            Console.WriteLine("==========================================");
+            Console.WriteLine();
+
+            // Print Tracking Status
+            Console.WriteLine("Tracking Status");
+            Console.WriteLine();
+
+            center.PrintTrackingStatuses();
+
+            Console.WriteLine();
+            Console.WriteLine("==========================================");
+            Console.WriteLine();
+
+            // Print Insurance
+            Console.WriteLine("Insurance");
+            Console.WriteLine();
+
+            Console.WriteLine(
+                "Standard Shipment Insurance : " +
+                standard.CalculateInsurance().ToString("0.00") +
+                " EGP");
+
+            Console.WriteLine();
+
+            Console.WriteLine(
+                "Express Shipment Insurance : " +
+                express.CalculateInsurance().ToString("0.00") +
+                " EGP");
+
+            Console.WriteLine();
+
+            Console.WriteLine(
+                "International Shipment Insurance : " +
+                international.CalculateInsurance().ToString("0.00") +
+                " EGP");
+
+            Console.WriteLine();
+            Console.WriteLine("==========================================");
+            Console.WriteLine();
+
+            // ITrackable Array
+            ITrackable[] trackableShipments =
+            {
+                standard,
+                express,
+                international
+            };
+
+            Console.WriteLine("Interface Polymorphism - Tracking");
+            Console.WriteLine();
+
+            foreach (ITrackable shipment in trackableShipments)
+            {
+                Console.WriteLine(shipment.GetTrackingStatus());
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("==========================================");
+            Console.WriteLine();
+
+            // IInsurable Array
+            IInsurable[] insurableShipments =
+            {
+                standard,
+                express,
+                international
+            };
+
+            Console.WriteLine("Interface Polymorphism - Insurance");
+            Console.WriteLine();
+
+            foreach (IInsurable shipment in insurableShipments)
+            {
+                Console.WriteLine(
+                    "Insurance: " +
+                    shipment.CalculateInsurance().ToString("0.00") +
+                    " EGP");
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("==========================================");
+            Console.WriteLine();
+
+            Console.WriteLine("Interface Polymorphism Demonstrated Successfully.");
+
+            Console.ReadKey();
+             */
+
+            #endregion
+
             #endregion
         }
     }
