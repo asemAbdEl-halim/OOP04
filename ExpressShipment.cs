@@ -51,7 +51,7 @@ namespace OOP04
 
         public decimal CalculateInsurance()
         {
-            return EstimatedCost * 0.05m;
+            return EstimatedCost * 0.08m;
         }
 
         public string GetTrackingStatus()

@@ -76,6 +76,14 @@
 
             #endregion
 
+            #region Question05
+
+            /*
+             * 5) Create IInsurable
+             * **/
+
+            #endregion
+
             #endregion
         }
     }

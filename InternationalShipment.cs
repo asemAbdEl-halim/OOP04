@@ -71,7 +71,7 @@ namespace OOP04
         // Insurance
         public decimal CalculateInsurance()
         {
-            return EstimatedCost * 0.05m;
+            return EstimatedCost * 0.12m;
         }
 
         // Tracking Status
