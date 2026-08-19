@@ -38,7 +38,7 @@ namespace OOP04
 
         public string GetTrackingStatus()
         {
-            return "Standard shipment is being delivered.";
+            return "Shipment " + TrackingCode + " is Ready.";
         }
 
         public override void PrintShipment()

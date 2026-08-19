@@ -56,7 +56,7 @@ namespace OOP04
 
         public string GetTrackingStatus()
         {
-            return "Express shipment is being delivered quickly.";
+            return "Shipment " + TrackingCode + " is Out for Delivery.";
         }
 
         public override void PrintShipment()

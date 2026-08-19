@@ -77,7 +77,7 @@ namespace OOP04
         // Tracking Status
         public string GetTrackingStatus()
         {
-            return "International shipment is being delivered.";
+            return "Shipment " + TrackingCode + " has been Delivered.";
         }
 
         // Print Shipment

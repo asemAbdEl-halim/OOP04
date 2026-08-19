@@ -68,6 +68,14 @@
 
             #endregion
 
+            #region Question04
+
+            /*
+             * 4) Create ITrackable
+             * **/
+
+            #endregion
+
             #endregion
         }
     }
