@@ -101,14 +101,8 @@ namespace OOP04
             }
         }
 
-        // Virtual Property
-        public virtual decimal EstimatedCost
-        {
-            get
-            {
-                return DeliveryFee + (Weight * 5);
-            }
-        }
+        // Abstract Method
+        public abstract decimal EstimatedCost();
 
         // Update Delivery Fee
         public void UpdateDeliveryFee(decimal newFee)
@@ -119,7 +113,7 @@ namespace OOP04
             }
         }
 
-        // Update Weight
+        // Method Overloading - First Version
         public void UpdateWeight(decimal newWeight)
         {
             if (newWeight > 0)
@@ -128,10 +122,8 @@ namespace OOP04
             }
         }
 
-        // Update Weight + Packing
-        public void UpdateWeight(
-            decimal newWeight,
-            decimal packingWeight)
+        // Method Overloading - Second Version
+        public void UpdateWeight(decimal newWeight, decimal packingWeight)
         {
             if (newWeight > 0 && packingWeight >= 0)
             {
@@ -139,15 +131,7 @@ namespace OOP04
             }
         }
 
-        // Virtual Method
-        public virtual void PrintShipment()
-        {
-            Console.WriteLine("Tracking Code: " + TrackingCode);
-            Console.WriteLine("Description: " + Description);
-            Console.WriteLine("Weight: " + Weight + " KG");
-            Console.WriteLine("Delivery Fee: " + DeliveryFee + " EGP");
-            Console.WriteLine("Destination: " + Destination.GetFullAddress());
-            Console.WriteLine("Estimated Cost: " + EstimatedCost + " EGP");
-        }
+        // Abstract Method
+        public abstract void PrintShipment();
     }
 }

@@ -47,7 +47,15 @@
             #region Question01
 
             /*
-             * 1)
+             * 1) Convert Shipment into an Abstract Class
+             * **/
+
+            #endregion
+
+            #region Question02
+
+            /*
+             * 2) Create Abstract Members
              * **/
 
             #endregion
