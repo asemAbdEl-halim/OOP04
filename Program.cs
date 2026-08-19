@@ -41,6 +41,18 @@
             #endregion
 
             #endregion
+
+            #region Part02
+
+            #region Question01
+
+            /*
+             * 1)
+             * **/
+
+            #endregion
+
+            #endregion
         }
     }
 }
