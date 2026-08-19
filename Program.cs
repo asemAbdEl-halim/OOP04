@@ -84,6 +84,14 @@
 
             #endregion
 
+            #region Question06
+
+            /*
+             * 6) Create DeliveryReport
+             * **/
+
+            #endregion
+
             #endregion
         }
     }
