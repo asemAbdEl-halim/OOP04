@@ -102,7 +102,7 @@ namespace OOP04
         }
 
         // Abstract Method
-        public abstract decimal EstimatedCost();
+        public abstract decimal EstimatedCost { get; }
 
         // Update Delivery Fee
         public void UpdateDeliveryFee(decimal newFee)
